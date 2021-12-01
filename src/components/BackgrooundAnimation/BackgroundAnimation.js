@@ -8,7 +8,8 @@ function useAnimationPath({toggle, delay}) {
   const animatedStyle = useSpring({
     // We are not using StrokeDashArray
     strokeDasharray: length,
-    strokeDashoffset: toggle ? 0 : length
+    strokeDashoffset: toggle ? 0 : length,
+    delay
   });
   return {
     style: animatedStyle,
@@ -21,7 +22,7 @@ function useAnimationPath({toggle, delay}) {
 }
 
 function ColouredArea({color, toggle}) {
-  const animationStrokeProps = useAnimationPath({toggle});
+  const animationStrokeProps = useAnimationPath({toggle}, 100);
   const animationFillStyle = useSpring({
     fill: toggle ? color : "#0F1624",
     delay: 500
@@ -55,7 +56,7 @@ function CircularColour({toggle, color}) {
   const animatedStrokeProps = useAnimationPath({toggle});
   const animatedFillStyle = useSpring({
     fill: toggle ? color : "#0F1624",
-    delay: 500
+    delay: 1000
   });
   return (
     <animated.path

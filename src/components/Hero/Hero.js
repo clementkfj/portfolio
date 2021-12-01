@@ -14,7 +14,7 @@ const Hero = () => (
       <SectionText>
         Short write up
       </SectionText>
-      <Button onClick= {() => window.location = "https://github.com/clementkfj"}>
+      <Button onClick= {() => window.location = "https://drive.google.com/file/d/1ZbCqKpUhMfzhVcWAev9qd593odPkPOJ9/view?usp=sharing"}>
         Learn more
       </Button>
     </LeftSection>

@@ -20,7 +20,8 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Enjoy what you do and you'll naturally improve</Slogan>
+          <Slogan style={{fontStyle: "italic"}}>Enjoy what you do and you'll naturally improve</Slogan>
+          <Slogan style={{fontStyle: "italic"}}>The only obstacle in life is yourself</Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://github.com/clementkfj/">

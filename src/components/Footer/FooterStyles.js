@@ -78,6 +78,7 @@ justify-content: space-between;
 
 export const CompanyContainer = styled.div`
   display: flex;
+  flex-direction: column;
 	align-items:baseline;
 	flex-wrap: wrap;
 	margin-right: auto;

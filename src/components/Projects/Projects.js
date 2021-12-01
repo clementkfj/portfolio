@@ -12,7 +12,7 @@ const Projects = () => (
       {projects.map(({image, id, title, description, tags, source, visit}) => (
         <div>
           <BlogCard key={id}>
-            {image ? <Img src={image}/> : null}
+            <Img src={image}/>
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
               <Hr/>
