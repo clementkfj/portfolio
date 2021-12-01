@@ -43,9 +43,32 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id= "about">
+      <SectionTitle>
+        About Myself
+      </SectionTitle>
+      <SectionText>
+        Since completing my first iOS app, I realized that I have a passion in building projects, seeing the code that I've written transform into a fully fledged working software for various kinds of usage. 
+      </SectionText>
+      {/* <CarouselContainer ref={carouselRef}>
+        <>
+        {TimeLineData.map((item, index) => (
+            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
+              <CarouselItem
+                index={index}
+                id={`carousel__item-${index}`}
+                active={activeItem}
+                onClick={(e) => handleClick(e, index)}
+              >
+              <CarouselItemTitle>
+                {item.year}
+                </CarouselItemTitle>
+              </CarouselItem>
+            </CarouselMobileScrollNode>
+          ))}
+        </>
+      </CarouselContainer> */}
+    </Section>
   );
 };
 

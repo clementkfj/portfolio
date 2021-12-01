@@ -14,6 +14,22 @@ export const FooterWrapper = styled.section`
   }
 `
 
+export const LinkHeader = styled.h3`
+	font-style: normal;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.4);
+	margin-bottom: 16px;
+
+	@media ${props => props.theme.breakpoints.sm} {
+		font-size: 10px;
+		line-height: 12px;
+		margin-bottom: 8px;
+	}
+`
+
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;

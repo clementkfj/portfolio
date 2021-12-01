@@ -20,8 +20,7 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
-`
+`;
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
@@ -86,6 +85,7 @@ export const UtilityList = styled.ul`
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
+  padding-bottom: 1rem;
 `;
 
 export const ExternalLinks = styled.a`
