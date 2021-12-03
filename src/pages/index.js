@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     Aos.init({duration: 2000});
   }, [])
-
+// need change TimeLine and Tech area to have their own aos per component
   return (
     <Layout>
       <Section grid>
