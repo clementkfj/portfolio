@@ -6,7 +6,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkHeader, LinkItem, Link
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="footer">
       <LinkHeader>Contact me at</LinkHeader>
       <LinkList>
         <LinkColumn>
