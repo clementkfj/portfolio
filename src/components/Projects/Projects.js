@@ -23,7 +23,7 @@ const Projects = () => {
           data-aos="fade-right"
           data-aos-offset="500"
           data-aos-anchor="#example-anchor"
-          data-aos-delay={index * 500}
+          data-aos-delay={index * 250}
         >
           <BlogCard key={id}>
             <Img src={image}/>

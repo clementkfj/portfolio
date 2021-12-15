@@ -17,15 +17,13 @@ const Header = () =>  {
 
   return (
   <Container>
-    <div data-aos="fade-down-right" data-aos-delay={250}>
-    <Div1>
+    <Div1 data-aos="fade-down-right" data-aos-delay={250}>
       <Link href="/">
         <a style = {{display: "flex", alignItems: "center", color: "white", marginBottom: "20px"}}>
           <FaEthereum size = "2rem" style={{marginRight: "1"}} /> <Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>
-    </div>
     <Div2>
     <div data-aos="fade-down-right" data-aos-delay={500}>
       <li>
@@ -49,8 +47,7 @@ const Header = () =>  {
       </li>
     </div>
     </Div2>
-    <Div3>
-      <div data-aos="zoom-in-left" data-aos-delay={1250}>
+    <Div3 data-aos="zoom-in-left" data-aos-delay={1250}>
       <SocialIcons href="https://github.com/clementkfj/">
         <AiFillGithub size="3rem"/>
       </SocialIcons>
@@ -63,7 +60,6 @@ const Header = () =>  {
       <SocialIcons href="https://www.instagram.com/clement_kfj/">
         <AiFillInstagram size="3rem"/>
       </SocialIcons>
-      </div>
     </Div3>
   </Container>
   )

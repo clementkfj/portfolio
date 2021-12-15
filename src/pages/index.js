@@ -27,7 +27,7 @@ const Home = () => {
       <div data-aos="fade-right">
       <Timeline />
       </div>
-      <div data-aos="fade">
+      <div data-aos="fade-right">
       <Technologies />
       </div>
     </Layout>
